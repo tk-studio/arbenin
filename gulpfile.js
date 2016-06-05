@@ -46,9 +46,9 @@ gulp.task('sass', function(){
           ], {cascade: true})) //добавили префиксы
         .pipe(csscomb('mycsscomb.json'))
         .pipe(gulp.dest('app/css')) //загружаем результат в папку указывать только папку!
-        .pipe(cssnano())
-        .pipe(rename({suffix:'.min'}))
-        .pipe(gulp.dest('app/css'))
+        // .pipe(cssnano())
+        // .pipe(rename({suffix:'.min'}))
+        // .pipe(gulp.dest('app/css'))
         .pipe(browserSync.reload({stream: true}))
 });
 
