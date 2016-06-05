@@ -1,0 +1,9 @@
+!!! 5
+%html(lang='ru')
+  %head
+    = Haml::Engine.new(File.read("app/haml/include/_header.haml")).render(Object.new, :title => "Main page")
+  %body
+    = Haml::Engine.new(File.read("app/haml/include/_header-nologin.haml")).render
+    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa velit accusantium harum, debitis minima rem praesentium officia voluptas alias corporis. Voluptas totam, doloribus id eius quasi tempore qui maiores illum.
+    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum tempore in nihil dignissimos porro repellendus quaerat ratione inventore itaque? Nostrum nisi aliquam quisquam suscipit voluptatibus ipsa, ex veritatis! Veritatis, dolores.
+    = Haml::Engine.new(File.read("app/haml/include/_footer.haml")).render

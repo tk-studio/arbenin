@@ -1,0 +1,25 @@
+{
+  "name": "arbenin-site",
+  "description": "site arbenin.info",
+  "main": "index.js",
+  "authors": [
+    "tkot"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "arbenin"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "normalize-css": "normalize.css#^4.1.1",
+    "jquery": "^2.2.4"
+  }
+}
