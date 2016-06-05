@@ -1,2 +1,2 @@
 # arbenin
-Arbenin.info 1s
+Arbenin.info 1
